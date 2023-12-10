@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function() {
             for (let i = 1; i <= 6; i++) {
                 ix = i - 1;
                 let imageElement = imageElements[ix];
-                imageElement.src = "../images/" + folders[index] + `/image${i}.png`;
+                imageElement.src = "./images/" + folders[index] + `/image${i}.png`;
                 imageElement.style.border = "10px solid white";
                 imageElement.style.padding = "0px";
             }
